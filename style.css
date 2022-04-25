@@ -1,0 +1,53 @@
+body{
+    --color-primary: #009579;
+    --color-primary-dark: #007f67;
+    --color-secondary: #252c6a;
+    --color-error: #cc3333;
+    --color-success: #4bb544;
+    --border-radius: 4px;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    background: url(https://doqvf81n9htmm.cloudfront.net/data/nicolechang_78/180510/1903-shutterstock_295846730.jpg);
+    background-size: cover;
+    
+}
+.login {
+    background-color: #0b132b ;
+    width: 400px;
+    color: #f8f9fa;
+    padding: 40px;
+    text-align: center;
+}
+.login input{
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    background: none;
+    padding: 12px;
+    font-size: 15px;
+    border-radius: 22px;
+    outline: none;
+    color: #f8f9fa;
+}
+.login input[type="text"], .login input[type="password"]{
+    border:2px solid #3498db;
+    width: 220px;
+}
+.login input[type="submit"]{
+    width:150px;
+    border: 2px solid #2ecc71;
+    cursor: pointer;
+}
+.login input[type="text"]:focus, .login input[type="password"]:focus{
+    border-color: #2ecc71;
+    width: 280px;
+    transition: 0.5s;
+}
+.login input[type="submit"]:hover {
+    background-color: #2ecc71;
+    transition: 0.5s;
+}
